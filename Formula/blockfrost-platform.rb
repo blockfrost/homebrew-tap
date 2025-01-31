@@ -6,11 +6,11 @@ class BlockfrostPlatform < Formula
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/michalrus/bfp-release-testing/releases/download/0.0.1/blockfrost-platform-0.0.1-963cad7-x86_64-darwin.tar.bz2"
-      sha256 "567f7d2f1050e8199627940fa2bb2be88576991ee08a81935d7d143d472b69d4"
+      url "https://github.com/michalrus/bfp-release-testing/releases/download/0.0.1/blockfrost-platform-0.0.1-3652ef1-x86_64-darwin.tar.bz2"
+      sha256 "e1dce524e85649d39e86ec97c6c82018d72cc75a354f0ed6965b0f7d4b5a5b77"
     else
-      url "https://github.com/michalrus/bfp-release-testing/releases/download/0.0.1/blockfrost-platform-0.0.1-963cad7-aarch64-darwin.tar.bz2"
-      sha256 "48694536501f118309b2cadd95389c98edee406501bd7516f69342f77860a2ff"
+      url "https://github.com/michalrus/bfp-release-testing/releases/download/0.0.1/blockfrost-platform-0.0.1-3652ef1-aarch64-darwin.tar.bz2"
+      sha256 "0d97dbd6054cbc1da7556323c79df8b03ad6dba45a3ad71fbc637f56bdfb4d46"
     end
   end
 
