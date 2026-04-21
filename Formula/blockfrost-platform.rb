@@ -2,15 +2,15 @@ class BlockfrostPlatform < Formula
   desc "Blockfrost platform is a software that services a developer-friendly JSON API for the Cardano ecosystem"
   homepage "https://platform.blockfrost.io/"
   license "Apache-2.0"
-  version "0.0.3-rc.3"
+  version "1.0.0-rc.1"
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/blockfrost/blockfrost-platform/releases/download/0.0.3-rc.3/blockfrost-platform-0.0.3-rc.3-e8da785-x86_64-darwin.tar.bz2"
-      sha256 "834d257d4a1543b0035f5df1a27720b57dd4ccaf747c141dde13c02e13329d85"
+      url "https://github.com/blockfrost/blockfrost-platform/releases/download/1.0.0-rc.1/blockfrost-platform-1.0.0-rc.1-3e0d832-x86_64-darwin.tar.bz2"
+      sha256 "3cc840d17407c5bcaf73f7804161d10a9303eb3a72c685555404f81333ad893a"
     else
-      url "https://github.com/blockfrost/blockfrost-platform/releases/download/0.0.3-rc.3/blockfrost-platform-0.0.3-rc.3-e8da785-aarch64-darwin.tar.bz2"
-      sha256 "41198b639efe45f10e887199a14c1d09c6473d9608fc379c6a5a3241eff09de2"
+      url "https://github.com/blockfrost/blockfrost-platform/releases/download/1.0.0-rc.1/blockfrost-platform-1.0.0-rc.1-3e0d832-aarch64-darwin.tar.bz2"
+      sha256 "5fb4605eac615fab1c5f73c9cebee9e59fa3738a285665a4855e383f1fe34c14"
     end
   end
 
